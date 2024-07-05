@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 80px; 
+            justify-content: center;
+        }
+
+        .child {  
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 380px;
+            height: 350px;
+            padding: 10px;
+            /* border: 1px solid black; */
+            margin: 50px 10px;
+            border-radius: 15px;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+        }
+
+        .child img {
+            width: 350px;
+            height: 300px;
+            border-radius: 15px;
+            position: relative;
+            top: -50px;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175);
+        }
+
+        .child p {
+            margin-top: 0px;
+            font-size: 30px;
+            color: black;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .child img {
+                width: 300px;
+                height: 300px;
+            }
+
+            .child {
+                width: 330px;
+                height: 330px;
+            }
+
+            .child p{
+                margin-top: -28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <a href="https://dailypathways.com/claw-clips/" target="_blank">
+            <div class="child">
+                <img src="https://dailypathways.com/wp-content/uploads/2024/06/51ImxOEIGpL._US450_SCLZZZZZZZ_.jpg"
+                    alt="Claw Clips">
+                <p>Claw Clips</p>
+            </div>
+        </a>
+        <a href="https://dailypathways.com/hairs-essentials/" target="_blank">
+            <div class="child">
+                <img src="https://dailypathways.com/wp-content/uploads/2024/06/41vCXBmr-EL._US450_SCLZZZZZZZ_.jpg"
+                    alt="Claw Clips">
+                <p>Hairs Essentials</p>
+            </div>
+        </a>
+        <a href="https://dailypathways.com/scalp-massagers/" target="_blank">
+            <div class="child">
+                <img src="https://dailypathways.com/wp-content/uploads/2024/06/41OMO7NpkL._US450_SCLZZZZZZZ_.jpg"
+                    alt="Claw Clips">
+                <p>Scalp Massagers</p>
+            </div>
+        </a>
+        <a href="https://dailypathways.com/hairs-brush-comb/" target="_blank">
+            <div class="child">
+                <img src="https://dailypathways.com/wp-content/uploads/2024/06/51ZUsL5hiZL._US450_SCLZZZZZZZ_.jpg"
+                    alt="Claw Clips">
+                <p>Hair Bursh/Combs</p>
+            </div>
+        </a>
+    </div>
+</body>
+
+</html>
